@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Demo 1 </title>
+		<script src="js/pixi.min.js"></script>
+	</head>
+	<body>
+	<script>
+	var app = new PIXI.Application(1302,615);
+	document.body.appendChild(app.view);
+	
+    var background = PIXI.Texture.fromImage("assets/tienda_dentro.png");
+	
+	var tienda_dentro = new PIXI.Sprite(background);
+	
+	app.stage.addChild(tienda_dentro);
+	
+	PIXI.loader
+	 .add("assets/walking.json")
+	 .load(onLoad);
+	 
+	 function onLoad(){
+			var frames = [];
+			for(var i=1;i<=12;i++){
+			var val = i;
+			frames.push(PIXI.Texture.fromFrame("walking_1_"+val+".png"));
+			}
+			var anim = new PIXI.extras.AnimatedSprite(frames);
+			
+			anim.x = 0;
+            anim.y = app.screen.height / 1.5;
+            anim.anchor.set(0.5);
+			anim.animationSpeed = 0.2;  
+			anim.play();
+			
+			app.stage.addChild(anim);
+			
+			app.ticker.add(function(delta) {
+ 
+               anim.x += 1 * delta;
+			   
+			   if(anim.x>1302){
+			   anim.x=-20;
+			   }
+			   console.log(anim.x);
+});
+			
+		}
+	 
+	
+	</script>
+	</body>
+</html>

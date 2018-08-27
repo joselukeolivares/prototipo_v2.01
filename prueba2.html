@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Demo 1 </title>
+		<script src="js/pixi.min.js"></script>
+	</head>
+	<body>
+	<script>
+            var app = new PIXI.Application(1350,750);
+            document.body.appendChild(app.view);
+
+             PIXI.loader
+		    .add('assets/tiendas.json')
+			.load(onAssetsLoaded);
+			
+			function onAssetsLoaded(){
+			
+			var frames = [];
+			
+			for(var i=1;i<=8;i++){
+			var val = i;
+			
+			frames.push(PIXI.Texture.fromFrame("tienda0"+val+".png"));
+			
+			}
+			
+			var anim = new PIXI.extras.AnimatedSprite(frames);
+			
+			
+			anim.x = app.screen.width / 2;
+            anim.y = app.screen.height / 2;
+            anim.anchor.set(0.5);
+			anim.animationSpeed = 0.2;
+            anim.play();
+
+           app.stage.addChild(anim);
+}			
+
+	</script>
+	</body>
+</html>

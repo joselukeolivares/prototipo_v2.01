@@ -1,0 +1,175 @@
+{
+	"frames": {
+		"tienda_1_1.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 1300,
+				"h": 740
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1300,
+				"h": 740
+			},
+			"sourceSize": {
+				"w": 1300,
+				"h": 740
+			}
+		},
+		"tienda_1_2.png": {
+			"frame": {
+				"x": 1303,
+				"y": 1,
+				"w": 1300,
+				"h": 740
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1300,
+				"h": 740
+			},
+			"sourceSize": {
+				"w": 1300,
+				"h": 740
+			}
+		},
+		"tienda_1_3.png": {
+			"frame": {
+				"x": 2605,
+				"y": 1,
+				"w": 1300,
+				"h": 740
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1300,
+				"h": 740
+			},
+			"sourceSize": {
+				"w": 1300,
+				"h": 740
+			}
+		},
+		"tienda_1_4.png": {
+			"frame": {
+				"x": 3907,
+				"y": 1,
+				"w": 1300,
+				"h": 740
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1300,
+				"h": 740
+			},
+			"sourceSize": {
+				"w": 1300,
+				"h": 740
+			}
+		},
+		"tienda_1_5.png": {
+			"frame": {
+				"x": 5209,
+				"y": 1,
+				"w": 1300,
+				"h": 740
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1300,
+				"h": 740
+			},
+			"sourceSize": {
+				"w": 1300,
+				"h": 740
+			}
+		},
+		"tienda_1_6.png": {
+			"frame": {
+				"x": 6511,
+				"y": 1,
+				"w": 1300,
+				"h": 740
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1300,
+				"h": 740
+			},
+			"sourceSize": {
+				"w": 1300,
+				"h": 740
+			}
+		},
+		"tienda_1_7.png": {
+			"frame": {
+				"x": 7813,
+				"y": 1,
+				"w": 1300,
+				"h": 740
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1300,
+				"h": 740
+			},
+			"sourceSize": {
+				"w": 1300,
+				"h": 740
+			}
+		},
+		"tienda_1_8.png": {
+			"frame": {
+				"x": 9115,
+				"y": 1,
+				"w": 1300,
+				"h": 740
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1300,
+				"h": 740
+			},
+			"sourceSize": {
+				"w": 1300,
+				"h": 740
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "spritesheet.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 10416,
+			"h": 742
+		},
+		"scale": "1"
+	}
+}
