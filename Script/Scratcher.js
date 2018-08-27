@@ -49,7 +49,7 @@ var scratching=function (num){
     //app.stage.removeChild(shop);
 
     while(app.stage.children[0]) {
-      console.log("Elemntos restantes: "+app.stage.children.length +"de la app de PIXI")
+      console.log("Elemntos restantes: "+app.stage.children.length +" de la app de PIXI")
       app.stage.removeChild(app.stage.children[0]); }
     debugger;
 
