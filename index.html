@@ -5,6 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title> Demo 1 </title>
 		<link rel="style" href="Scratcher.css">
+		<link rel="stylesheet" href="CSS/balloon.css">
+
+
+
 		<script src="js/pixi.min.js"></script>
 		<style>
 		.Scratcher_div{
@@ -18,6 +22,17 @@
 			z-index: 200;
 
 		}
+
+		.circulos{
+			border-radius: 40px;
+			background-color: white;
+			width: 30px;
+			height: 30px;
+			align-self: center;
+			display: inline-block;
+			margin: 30px 10px 10px 10px;
+			border-color: white;
+		}
 		</style>
 
 	</head>
@@ -25,7 +40,7 @@
 	<script>
 
 	var width = screen.width-100;
-    var height = screen.height-150;
+    var height = screen.height-220;
 
 	var app = new PIXI.Application(width,height,{transparent:true});
 	app.view.style.width = width;
@@ -39,7 +54,7 @@
 	var shop = new PIXI.Sprite(textureShop_1);
 
 	        shop.x = app.screen.width / 2;
-            shop.y = app.screen.height / 2;
+            shop.y = (app.screen.height / 2);
             shop.anchor.set(0.5,0.5);
 
 	shop.interactive = true;
@@ -244,5 +259,17 @@
 	}
 	</script>
 	<script src="Script/Scratcher.js"></script>
+		<footer>
+			<div id="container" style="background-color: rgb(25,41,26);height: 100%;width: 100%;text-align: center;">
+				<div class="circulos" data-balloon="Inicio!" data-balloon-pos="up"></div>
+				<div class="circulos" data-balloon="Historia!" data-balloon-pos="up"></div>
+				<div class="circulos" data-balloon="Indicadores del ERC!" data-balloon-pos="up"></div>
+				<div class="circulos" data-balloon="Segmentación de Cliente!" data-balloon-pos="up"></div>
+				<div class="circulos" data-balloon="Simulación!" data-balloon-pos="up"></div>
+				<div class="circulos" data-balloon="Escenario!" data-balloon-pos="up"></div>
+				<div class="circulos" data-balloon="Créditos!" data-balloon-pos="up"></div>
+
+		</footer>
+
 	</body>
 </html>
